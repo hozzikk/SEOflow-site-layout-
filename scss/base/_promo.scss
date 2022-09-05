@@ -1,0 +1,62 @@
+.promo {
+    min-height: 967px;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0px;
+
+        &-contacts {
+            display: flex;
+        }
+        &-icons {
+            a {
+                margin-right: 15px;
+            }
+        }
+    }
+    &__phone {
+        color: #fff;
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        &-icon {
+            margin-right: 12px;
+            padding: 3px 9px;
+            background-color: #F4AB00;
+            border: 1px solid #F4AB00;
+        }
+    }
+
+    &__email {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        &-icon {
+            margin-right: 12px;
+            padding: 3px 9px;
+            background-color: #F4AB00;
+            border: 1px solid #F4AB00;
+        }
+    }
+
+    .navbar {
+        padding: 15px 25px;
+        height: 94px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        
+        &-brand {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        &__btn {
+            padding: 11px 26px;
+            color: #fff;
+            border: none;
+            background: #F4AB00;
+            border-radius: 32px;
+        }
+    }
+}
