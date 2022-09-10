@@ -1,0 +1,25 @@
+.statistics {
+    background: #fff;
+    color: #2C1258;
+    &__result {
+        img {
+            width: 560px;
+        }
+        display: flex;
+
+        &-content {
+            width: 560px;
+            span {
+                color: #F4AB00;
+                font-size: 20px;
+            }
+            h1 {
+                margin-top: 20px;
+            }
+            &-descr {
+                margin-top: 25px;
+                width: 460px;
+            }
+        }
+    }
+}

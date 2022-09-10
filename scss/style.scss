@@ -13,10 +13,17 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+.transition {
+    img {
+        width: 100%;
+    }
+}
+
 .container {
     width: 1140px;
     margin: 0 auto;
 }
 
 
-@import './base/promo'
+@import './base/promo';
+@import './base/statistics'
